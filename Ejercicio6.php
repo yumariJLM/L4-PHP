@@ -9,7 +9,7 @@
 header ("Content-type: text/html;charset=\"utf-8\"");
 
 echo "<h1>".$_GET['clase']."</h1>";
-echo "<h2>".$_GET['clase']."</h2>";
+echo "<h2>".$_GET['periodo']."</h2>";
 
 echo "<h1>".$_GET['nombre']."</h1>";
 echo "<h2>".$_GET['apellido']."</h2>";
@@ -31,7 +31,7 @@ Escibe tu nombre completo:
 <input name="nombre" type="text" placeholder="Escribe nombres">
 <input name="apellido" type="text" placeholder="Escribe Apellidos">
 <input name="edad" type="text" placeholder="Escribe edad">
-<input name="submit" value="Registrar">
+<input name="submit" type="button" value="Registrar">
 </form>
 
 </body>
