@@ -4,7 +4,9 @@
 
 <?php
 $num = $_POST['numero'];
-echo $num;
+
+
+echo "<h2>$num</h2>";
 
 
 
