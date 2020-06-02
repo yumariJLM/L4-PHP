@@ -18,6 +18,11 @@ if ($primo){
 }
 
 ?>
- 
+ <form action="Ejercicio.php" method="get">
+ <input type="number" id="campo1" name="campo1" placeholders="Inserta un numero"/>
+ <input type="submit" value="Enviar"/>
+</form>
+
+
 </body>
 </html>
