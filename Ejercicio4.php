@@ -9,7 +9,7 @@
 header ("Content-type: text/html;charset=\"utf-8\"");
 $usuario = "yumari26";
 
-if ($usuario == "yumari2" || $usuario == "yumari26")
+if ($usuario == "yumari2" || $usuario == "yumari6")
 {
     echo "<h1>Usuario es valido</h1>";
 
