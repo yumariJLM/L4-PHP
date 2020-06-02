@@ -31,10 +31,6 @@ $miarregloReves = array_reverse($miarreglo);
 echo "<br><br>";
 print_r($miarregloReves);
 
-
-
-
-
 ?>
 </body>
 </html>
