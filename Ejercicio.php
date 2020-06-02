@@ -3,18 +3,20 @@
 <body>
 
 <?php
-$num = $_POST['numero'];
 
-
-echo "<h2>$num</h2>";
+$CampoTexto = $_POST['Campo1'];
+echo $CampoTexto;
 
 
 
 ?>
-<form action="Ejercicio" method="post">
- <input type="number" id="numero" name="numero" placeholders="Inserta un numero"/>
+
+
+<form action="Ejercicio.php" method="post">
+ <input type="number" id="campo1" name="campo1" placeholders="Inserta un dato"/>
  <input type="submit" value="Enviar"/>
 </form>
+
 
  
 </body>
