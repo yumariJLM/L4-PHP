@@ -5,10 +5,10 @@
 <?php
 
 $num = $_GET['Campo1'];
-
+$i=2;
 $primo= true;
 while ($primo && $i<$num){
-    $primo= ($num % 2 ) !=0;
+    $primo= ($num %$i)!=0;
     $i++;
 }
 if ($primo){
