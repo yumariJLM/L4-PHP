@@ -26,13 +26,7 @@ else
 ?>
 
 
-<form>
-Escibe tu nombre completo:
-<input name="nombre" type="text" placeholder="Escribe nombres">
-<input name="apellido" type="text" placeholder="Escribe Apellidos">
-<input name="edad" type="text" placeholder="Escribe edad">
-<input name="submit" type="button" value="Registrar">
-</form>
+
 
 </body>
 </html>
