@@ -5,10 +5,10 @@
 <?php
 
 $num = $_GET['Campo1'];
-$i=2;
+
 $primo= true;
 while ($primo && $i<$num){
-    $primo= ($num %$i)!=0;
+    $primo= ($num % 2 ) !=0;
     $i++;
 }
 if ($primo){
@@ -18,6 +18,7 @@ if ($primo){
 }
 
 ?>
+
  <form action="Ejercicio.php" method="get">
  <input type="number" id="campo1" name="campo1" placeholders="Inserta un numero"/>
  <input type="submit" value="Enviar"/>
