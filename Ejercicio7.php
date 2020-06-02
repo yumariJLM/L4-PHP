@@ -16,7 +16,7 @@ for ($i=1; $i<=100; $i++) {
     }
 }
  
-
+$num= 14;
 function primo($num)
 {
     if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
