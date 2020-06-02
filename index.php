@@ -9,7 +9,7 @@
   <li><a href="Ejercicio3.php" target ="new"> Ejercicio3</a></li>
   <li><a href="Ejercicio4.php" target ="new"> Ejercicio4</a></li>
   <li><a href="Ejercicio5.php" target ="new"> Ejercicio5</a></li>
-  <li><a href="#" target ="new"> Ejercicio6</a></li>
+  <li><a href="Ejercicio6.php" target ="new"> Ejercicio6</a></li>
   <li><a href="#" target ="new"> Ejercicio7</a></li>
 
 
