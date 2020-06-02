@@ -35,7 +35,7 @@ function primo($num)
     }
     return False;
 }
-
+?>
 
 </body>
 </html>
