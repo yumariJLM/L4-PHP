@@ -3,7 +3,6 @@
 <body>
 
 <h1>Ejercicio 2</h1>
-
 <?php
 //Este es un comentario de una linea
 
@@ -31,9 +30,6 @@ $logico2= false;
 echo "<p>El contenido de una variable tipo booleano verdadero: $logico y variable booleana falsa: $logico2 </p>";
 $variableNombreClase = "NombreClase";
 echo "<p>Esta es un nombre de variable extraido de una cadena".$$variableNombreClase." </p>";
-
-
-
 ?>
 
 </body>
