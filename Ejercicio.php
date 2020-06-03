@@ -6,7 +6,7 @@
 
 $num = $_GET['Campo1'];
 
-for ($i=1; $i<=$num; $i++) {
+for ($i=1; $i<=100; $i++) {
     if (primo($i)) {
         echo "<br>El número ".$i." es primo";
     } else {
