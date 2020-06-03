@@ -5,16 +5,32 @@
 <?php
 
 $num = $_GET['Campo1'];
-$i=2;
-$primo= true;
-while ($primo && $i<$num){
-    $primo= ($num %$i)!=0;
-    $i++;
-}
-if ($primo){
-   echo "el numero $num es primo"; 
-}else{
-    echo "el numero $num no es primo";  
+
+for ($i=1; $i<=$num; $i++) {
+    if (primo($i)) {
+        echo "<br>El número ".$i." es primo";
+    } else {
+        echo "<br>El número ".$i." NO es primo";
+    }
+ 
+
+function primo($num)
+{
+    if ($num == 2 || $num == 3 || $num == 5 || $num == 7) {
+        return True;
+    } else {
+        // comprobamos si es par
+        if ($num % 2 != 0) {
+            // comprobamos solo por los impares
+            for ($i = 3; $i <= sqrt($num); $i += 2) {
+                if ($num % $i == 0) {
+                    return False;
+                }
+            }
+            return True;
+        }
+    }
+    return False;
 }
 
 ?>
