@@ -4,7 +4,7 @@
 
 <?php
 
-$num = $_GET['Campo1'];
+$num = $_GET['Campo1'];  
 
 if ($num == 2 || $num == 3 || $num == 5 || $num == 7 ) 
 {
@@ -15,6 +15,8 @@ if ($num == 2 || $num == 3 || $num == 5 || $num == 7 )
   echo $num."  : es un numero primo";
   
 } else {
+
+
   echo $num."  : no es un numero primo";
 }
 ?>
